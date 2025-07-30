@@ -1,0 +1,33 @@
+body{
+    background-color:#f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cantainer{
+    max-width:400px;
+    margin:80px auto;
+    padding:30px;
+    background:#ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+input{
+    width:90%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+button{
+    background-color: #4CAF50;
+    color:white;
+    padding:10px 25px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #45a049;
+}

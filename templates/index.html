@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI Calculator-Flask</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    </head>
+    <body>
+        <div class="container">
+            <h2>BMI Calculator</h2>
+            <form method="post">
+                <input type="number" name="weight" placeholder="Enter your weight(kg)..."><br>
+                <input type="number" name="height" placeholder="Enter your height(cm)..."><br>
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+    </body>
+</html>
